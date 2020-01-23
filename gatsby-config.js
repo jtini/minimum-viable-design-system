@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter TS Scss`,
-    description: `Do Sass! Make the Typescripts!`,
+    title: `Design System Starter`,
+    description: `Start making a design system in the browser and generate design tokens`,
     author: `@jtini`,
   },
   plugins: [

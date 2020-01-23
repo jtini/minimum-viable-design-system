@@ -1,1 +1,1 @@
-# Gatsby Starter Typescript Scss
+# Design System Starter Kit

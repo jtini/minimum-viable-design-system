@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-ts-scss",
+  "name": "design-system-starter",
   "private": true,
-  "description": "Gatsby Starter with TS and Scss",
+  "description": "Design System Starter",
   "version": "0.1.0",
   "author": "Jerms",
   "dependencies": {
@@ -31,11 +31,13 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "buildTokens": "node ./buildTokens.js",
+    "develop": "npm run clean && npm run buildTokens && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "cleanTokens": "rm -rf build",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
