@@ -1,0 +1,1 @@
+# Gatsby Starter Typescript Scss
