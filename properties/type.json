@@ -1,0 +1,19 @@
+{
+    "type": {
+        "family": {
+            "value": "system"
+        },
+        "size": {
+            "value": 16
+        },
+        "weight": {
+            "value": "normal"
+        },
+        "style": {
+            "value": "normal"
+        },
+        "line-height": {
+            "value": 1.25
+        }
+    }
+}
