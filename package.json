@@ -31,14 +31,14 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "buildTokens": "node ./buildTokens.js",
+    "tokens:build": "node ./buildTokens.js",
     "develop": "npm run clean && npm run buildTokens && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "cleanTokens": "rm -rf build",
-    "updateTokens": "npm run cleanTokens && npm run buildTokens",
+    "tokens:clean": "rm -rf build",
+    "tokens:update": "npm run tokens:clean && npm run tokens:build",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
