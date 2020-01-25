@@ -18,10 +18,18 @@ StyleDictionary.registerTransform({
     }
 });
 
+// Translate font size to rem
+StyleDictionary.registerTransform({
+    name: 'type-size/scss',
+    type: 'value',
+    matcher: prop => prop.attributes.category === 'type' && prop.attributes.type === 'size',
+    transformer: prop => `${prop.value / 16}rem`
+});
+
 // Register our custom scss transforms
 StyleDictionary.registerTransformGroup({
     name: 'scss/custom',
-    transforms: ['attribute/cti', 'name/cti/kebab', 'time/seconds', 'content/icon', 'size/rem', 'color/css', 'type-family/scss']
+    transforms: ['attribute/cti', 'name/cti/kebab', 'time/seconds', 'content/icon', 'type-size/scss', 'color/css', 'type-family/scss']
 });
 
 StyleDictionary.buildAllPlatforms();

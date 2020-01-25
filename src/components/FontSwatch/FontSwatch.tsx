@@ -1,4 +1,5 @@
 import React from 'react'
+import cx from 'classnames'
 
 interface FontSwatchProps {
     value: string,
@@ -25,7 +26,9 @@ const FontSwatch = (props: FontSwatchProps) => {
 
     return (
         <div style={style} className="font-swatch">
-            <p className="font-swatch__text">{textSample()}</p>
+            <p className={cx("font-swatch__text", {
+                "mono": value === 'native-mono'
+            })}>{textSample()}</p>
         </div>
     )
 }

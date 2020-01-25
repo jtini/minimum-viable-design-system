@@ -17,8 +17,8 @@ const TokenListItem = (props: TokenListItemProps) => {
     return (
         <div className="token-list-item">
             <span className="token-list-item__text-wrapper">
-                <p className="token-list-item__text token-list-item__name">{name}</p>
-                <p className="token-list-item__text token-list-item__value">{value}</p>
+                <p className="token-list-item__text token-list-item__name mono">{name}</p>
+                <p className="token-list-item__text token-list-item__value mono">{value}</p>
             </span>
             {isColor &&
                 <ColorSwatch value={value} />

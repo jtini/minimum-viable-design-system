@@ -1,14 +1,14 @@
 /**
  * Do not edit directly
- * Generated on Sat, 25 Jan 2020 18:02:03 GMT
+ * Generated on Sat, 25 Jan 2020 18:09:47 GMT
  */
 
 module.exports = {
   "color": {
     "text": {
-      "value": "#111111",
+      "value": "#232723",
       "original": {
-        "value": "#111"
+        "value": "#232723"
       },
       "name": "color-text",
       "attributes": {
@@ -21,9 +21,9 @@ module.exports = {
       ]
     },
     "background": {
-      "value": "#ffffff",
+      "value": "#fafafa",
       "original": {
-        "value": "#fff"
+        "value": "#fafafa"
       },
       "name": "color-background",
       "attributes": {

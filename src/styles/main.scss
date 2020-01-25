@@ -1,5 +1,17 @@
 @import "system.scss";
+@import "reset.scss";
 
 body {
     font-family: $type-family-base;
+    font-size: $type-size;
+    font-weight: $type-weight;
+    font-style: $type-style;
+    line-height: $type-line-height;
+    background-color: $color-background;
+    color: $color-text;
+    padding: 1rem;
+}
+
+.mono {
+    font-family: $type-family-mono;
 }

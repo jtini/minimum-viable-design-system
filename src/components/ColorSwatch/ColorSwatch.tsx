@@ -11,6 +11,9 @@ const ColorSwatch = (props: ColorSwatchProps) => {
 
     return (
         <span className="color-swatch" style={{
+            display: 'inline-block',
+            width: 48,
+            height: 48,
             backgroundColor: value,
             border: hasBorder ? `1px solid ${tinycolor(value).darken(10).toString()}` : 'none'
         }} />
