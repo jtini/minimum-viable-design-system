@@ -2,10 +2,12 @@
     "type": {
         "family": {
             "base": {
-                "value": "native"
+                "value": "native",
+                "comment": "Uses the device's default native system font"
             },
             "mono": {
-                "value": "native-mono"
+                "value": "native-mono",
+                "comment": "Uses the device's default native system monospaced font"
             }
         },
         "size": {

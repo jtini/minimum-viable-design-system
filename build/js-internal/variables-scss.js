@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 25 Jan 2020 18:20:19 GMT
+ * Generated on Sat, 25 Jan 2020 18:26:32 GMT
  */
 
 module.exports = {
@@ -40,8 +40,10 @@ module.exports = {
     "family": {
       "base": {
         "value": "native",
+        "comment": "Uses the device's default native system font",
         "original": {
-          "value": "native"
+          "value": "native",
+          "comment": "Uses the device's default native system font"
         },
         "name": "$type-family-base",
         "attributes": {
@@ -57,8 +59,10 @@ module.exports = {
       },
       "mono": {
         "value": "native-mono",
+        "comment": "Uses the device's default native system monospaced font",
         "original": {
-          "value": "native-mono"
+          "value": "native-mono",
+          "comment": "Uses the device's default native system monospaced font"
         },
         "name": "$type-family-mono",
         "attributes": {
