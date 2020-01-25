@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 25 Jan 2020 17:41:46 GMT
+ * Generated on Sat, 25 Jan 2020 18:02:03 GMT
  */
 
 module.exports = {
@@ -38,19 +38,40 @@ module.exports = {
   },
   "type": {
     "family": {
-      "value": "system",
-      "original": {
-        "value": "system"
+      "base": {
+        "value": "native",
+        "original": {
+          "value": "native"
+        },
+        "name": "type-family-base",
+        "attributes": {
+          "category": "type",
+          "type": "family",
+          "item": "base"
+        },
+        "path": [
+          "type",
+          "family",
+          "base"
+        ]
       },
-      "name": "type-family",
-      "attributes": {
-        "category": "type",
-        "type": "family"
-      },
-      "path": [
-        "type",
-        "family"
-      ]
+      "mono": {
+        "value": "native-mono",
+        "original": {
+          "value": "native-mono"
+        },
+        "name": "type-family-mono",
+        "attributes": {
+          "category": "type",
+          "type": "family",
+          "item": "mono"
+        },
+        "path": [
+          "type",
+          "family",
+          "mono"
+        ]
+      }
     },
     "size": {
       "value": 16,

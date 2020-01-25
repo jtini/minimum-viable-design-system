@@ -4,15 +4,21 @@
     ],
     "platforms": {
         "scss": {
-            "transformGroup": "scss",
+            "transformGroup": "scss/custom",
             "buildPath": "build/",
             "files": [
                 {
                     "destination": "scss/_variables.scss",
                     "format": "scss/variables"
-                },
+                }
+            ]
+        },
+        "js-internal": {
+            "transformGroup": "scss",
+            "buildPath": "build/",
+            "files": [
                 {
-                    "destination": "../build/js/variables-scss.js",
+                    "destination": "js-internal/variables-scss.js",
                     "format": "javascript/module"
                 }
             ]

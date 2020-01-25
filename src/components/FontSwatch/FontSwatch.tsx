@@ -13,7 +13,6 @@ const FontSwatch = (props: FontSwatchProps) => {
     const isLineHeight = name.indexOf('line-height') > -1;
     const isLetterspacing = name.indexOf('letterspacing') > -1;
     const style = {
-        fontFamily: isFamily ? value : 'inherit',
         fontSize: isScaleBase ? value : 'inherit',
         fontWeight: isWeight ? value : 'normal',
         lineHeight: isLineHeight ? value : 1.25,

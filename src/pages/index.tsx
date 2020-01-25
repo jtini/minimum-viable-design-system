@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import TokenList from '../components/TokenList/TokenList'
-import tokens from '../../build/js/variables-scss'
+import tokens from '../../build/js-internal/variables-scss'
 
 const IndexPage = () => (
   <Layout>

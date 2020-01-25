@@ -1,7 +1,12 @@
 {
     "type": {
         "family": {
-            "value": "system"
+            "base": {
+                "value": "native"
+            },
+            "mono": {
+                "value": "native-mono"
+            }
         },
         "size": {
             "value": 16
