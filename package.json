@@ -38,6 +38,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "cleanTokens": "rm -rf build",
+    "updateTokens": "npm run cleanTokens && npm run buildTokens",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
