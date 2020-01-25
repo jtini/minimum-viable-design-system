@@ -32,7 +32,7 @@
   "scripts": {
     "build": "gatsby build",
     "tokens:build": "node ./buildTokens.js",
-    "develop": "npm run clean && npm run buildTokens && gatsby develop",
+    "develop": "npm run clean && npm run tokens:build && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
