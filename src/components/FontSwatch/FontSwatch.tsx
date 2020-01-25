@@ -20,7 +20,7 @@ const FontSwatch = (props: FontSwatchProps) => {
         letterSpacing: isLetterspacing ? value : 0
     }
     const textSample = () => {
-        return 'The quick brown fox jumps over the lazy dog.'
+        return 'Hello World'
     }
     // TODO: Need a way to attach fallback to this?
 

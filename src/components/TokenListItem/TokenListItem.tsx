@@ -1,6 +1,8 @@
 import React from 'react'
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 import ColorSwatch from '../ColorSwatch/ColorSwatch'
 import FontSwatch from '../FontSwatch/FontSwatch'
+import './TokenListItem.scss'
 
 interface TokenListItemProps {
     name: string,
@@ -18,8 +20,12 @@ const TokenListItem = (props: TokenListItemProps) => {
     return (
         <div className="token-list-item">
             <span className="token-list-item__text-wrapper">
-                <p className="token-list-item__text token-list-item__name mono">{name}</p>
-                <p className="token-list-item__text token-list-item__value mono">{value}</p>
+                <CopyToClipboard text={name}>
+                    <button className="token-list-item__text token-list-item__name mono">{name}</button>
+                </CopyToClipboard>
+                <CopyToClipboard text={value}>
+                    <button className="token-list-item__text token-list-item__value mono">{value}</button>
+                </CopyToClipboard>
                 {comment &&
                     <p className="token-list-item__text token-list-item__comment">{comment}</p>
                 }

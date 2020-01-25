@@ -8,7 +8,7 @@ import tokens from '../../build/js-internal/variables-scss'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>This is a very barebones design system</h1>
+    <h3>This is a very barebones design system</h3>
     <TokenList tokens={tokens} />
   </Layout>
 )
