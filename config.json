@@ -10,6 +10,10 @@
                 {
                     "destination": "scss/_variables.scss",
                     "format": "scss/variables"
+                },
+                {
+                    "destination": "../build/js/variables-scss.js",
+                    "format": "javascript/module"
                 }
             ]
         }
