@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 25 Jan 2020 18:09:47 GMT
+ * Generated on Sat, 25 Jan 2020 18:20:19 GMT
  */
 
 module.exports = {
@@ -10,7 +10,7 @@ module.exports = {
       "original": {
         "value": "#232723"
       },
-      "name": "color-text",
+      "name": "$color-text",
       "attributes": {
         "category": "color",
         "type": "text"
@@ -25,7 +25,7 @@ module.exports = {
       "original": {
         "value": "#fafafa"
       },
-      "name": "color-background",
+      "name": "$color-background",
       "attributes": {
         "category": "color",
         "type": "background"
@@ -43,7 +43,7 @@ module.exports = {
         "original": {
           "value": "native"
         },
-        "name": "type-family-base",
+        "name": "$type-family-base",
         "attributes": {
           "category": "type",
           "type": "family",
@@ -60,7 +60,7 @@ module.exports = {
         "original": {
           "value": "native-mono"
         },
-        "name": "type-family-mono",
+        "name": "$type-family-mono",
         "attributes": {
           "category": "type",
           "type": "family",
@@ -74,11 +74,11 @@ module.exports = {
       }
     },
     "size": {
-      "value": 16,
+      "value": "1rem",
       "original": {
         "value": 16
       },
-      "name": "type-size",
+      "name": "$type-size",
       "attributes": {
         "category": "type",
         "type": "size"
@@ -93,7 +93,7 @@ module.exports = {
       "original": {
         "value": "normal"
       },
-      "name": "type-weight",
+      "name": "$type-weight",
       "attributes": {
         "category": "type",
         "type": "weight"
@@ -108,7 +108,7 @@ module.exports = {
       "original": {
         "value": "normal"
       },
-      "name": "type-style",
+      "name": "$type-style",
       "attributes": {
         "category": "type",
         "type": "style"
@@ -123,7 +123,7 @@ module.exports = {
       "original": {
         "value": 1.25
       },
-      "name": "type-line-height",
+      "name": "$type-line-height",
       "attributes": {
         "category": "type",
         "type": "line-height"

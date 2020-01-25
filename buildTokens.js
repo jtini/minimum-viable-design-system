@@ -1,3 +1,4 @@
+const _ = require('lodash');
 const StyleDictionary = require("style-dictionary").extend(
     __dirname + "/config.json"
 );
@@ -26,10 +27,23 @@ StyleDictionary.registerTransform({
     transformer: prop => `${prop.value / 16}rem`
 });
 
+// Transform name to match scss variable format
+StyleDictionary.registerTransform({
+    name: 'name/scss-var',
+    type: 'name',
+    transformer: (prop, options) => `$${_.kebabCase([options.prefix].concat(prop.path).join(' '))}`
+})
+
 // Register our custom scss transforms
 StyleDictionary.registerTransformGroup({
     name: 'scss/custom',
     transforms: ['attribute/cti', 'name/cti/kebab', 'time/seconds', 'content/icon', 'type-size/scss', 'color/css', 'type-family/scss']
+});
+
+// Register our custom scss-js transforms
+StyleDictionary.registerTransformGroup({
+    name: 'scss/custom-js',
+    transforms: ['attribute/cti', 'name/scss-var', 'time/seconds', 'content/icon', 'type-size/scss', 'color/css']
 });
 
 StyleDictionary.buildAllPlatforms();

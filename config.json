@@ -14,7 +14,7 @@
             ]
         },
         "js-internal": {
-            "transformGroup": "scss",
+            "transformGroup": "scss/custom-js",
             "buildPath": "build/",
             "files": [
                 {
