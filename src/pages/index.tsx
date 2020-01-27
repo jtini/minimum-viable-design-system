@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import TokenList from '../components/TokenList/TokenList'
-import tokens from '../../build/js-internal/variables-scss'
+import tokensCss from '../../build/js-internal/variables-css'
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -14,6 +14,7 @@ const IndexPage = () => {
         }
       }
   `)
+
   return (
     <Layout>
       <SEO title="Home" />
@@ -24,7 +25,7 @@ const IndexPage = () => {
       </section>
       <h4>Design Tokens</h4>
       <pre className="how-to__text">Click to copy the sass variable or its associated value. Paste it where you want it.</pre>
-      <TokenList tokens={tokens} />
+      <TokenList tokens={tokensCss} />
     </Layout>
   )
 }

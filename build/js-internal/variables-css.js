@@ -10,7 +10,7 @@ module.exports = {
       "original": {
         "value": "#232723"
       },
-      "name": "$color-text",
+      "name": "--color-text",
       "attributes": {
         "category": "color",
         "type": "text"
@@ -25,7 +25,7 @@ module.exports = {
       "original": {
         "value": "#fafafa"
       },
-      "name": "$color-background",
+      "name": "--color-background",
       "attributes": {
         "category": "color",
         "type": "background"
@@ -45,7 +45,7 @@ module.exports = {
           "value": "native",
           "comment": "Uses the device's default native system font"
         },
-        "name": "$type-family-base",
+        "name": "--type-family-base",
         "attributes": {
           "category": "type",
           "type": "family",
@@ -64,7 +64,7 @@ module.exports = {
           "value": "native-mono",
           "comment": "Uses the device's default native system monospaced font"
         },
-        "name": "$type-family-mono",
+        "name": "--type-family-mono",
         "attributes": {
           "category": "type",
           "type": "family",
@@ -82,7 +82,7 @@ module.exports = {
       "original": {
         "value": 16
       },
-      "name": "$type-size",
+      "name": "--type-size",
       "attributes": {
         "category": "type",
         "type": "size"
@@ -97,7 +97,7 @@ module.exports = {
       "original": {
         "value": "normal"
       },
-      "name": "$type-weight",
+      "name": "--type-weight",
       "attributes": {
         "category": "type",
         "type": "weight"
@@ -112,7 +112,7 @@ module.exports = {
       "original": {
         "value": "normal"
       },
-      "name": "$type-style",
+      "name": "--type-style",
       "attributes": {
         "category": "type",
         "type": "style"
@@ -127,7 +127,7 @@ module.exports = {
       "original": {
         "value": 1.25
       },
-      "name": "$type-line-height",
+      "name": "--type-line-height",
       "attributes": {
         "category": "type",
         "type": "line-height"

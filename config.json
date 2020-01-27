@@ -10,15 +10,29 @@
                 {
                     "destination": "scss/_variables.scss",
                     "format": "scss/variables"
+                },
+                {
+                    "destination": "css/variables.css",
+                    "format": "css/variables"
                 }
             ]
         },
-        "js-internal": {
+        "js-internal/css": {
             "transformGroup": "scss/custom-js",
             "buildPath": "build/",
             "files": [
                 {
                     "destination": "js-internal/variables-scss.js",
+                    "format": "javascript/module"
+                }
+            ]
+        },
+        "js-internal/scss": {
+            "transformGroup": "css/custom-js",
+            "buildPath": "build/",
+            "files": [
+                {
+                    "destination": "js-internal/variables-css.js",
                     "format": "javascript/module"
                 }
             ]
