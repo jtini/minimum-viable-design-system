@@ -10,7 +10,6 @@
 .token-list-item__value {
     position: relative;
     display: block;
-    color: -webkit-link;
     opacity: 0.8;
     cursor: pointer;
 
@@ -44,6 +43,7 @@
 
 .token-list-item__name {
     font-weight: 700;
+    color: -webkit-link;
 }
 
 .token-list-item__comment {

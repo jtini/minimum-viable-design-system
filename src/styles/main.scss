@@ -7,7 +7,6 @@ body {
     font-weight: var(--type-weight);
     font-style: var(--type-style);
     line-height: var(--type-line-height);
-    background-color: var(--color-background);
     color: var(--color-text);
     padding: 1rem 1rem 1rem 2rem;
 }
@@ -43,7 +42,7 @@ h4 {
 }
 
 .how-to__text {
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     font-family: var(--type-family-mono);
     white-space: pre-wrap;
 }
