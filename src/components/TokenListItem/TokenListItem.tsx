@@ -31,7 +31,7 @@ const TokenListItem = (props: TokenListItemProps) => {
                 }
             </span>
             {isColor &&
-                <ColorSwatch value={value} />
+                <ColorSwatch name={name} value={value} />
             }
             {isFont &&
                 <FontSwatch name={name} value={value} />
