@@ -1,10 +1,12 @@
 {
     "color": {
         "text": {
-            "value": "#232723"
+            "value": "#232723",
+            "comment": "Use this color for all text"
         },
         "background": {
-            "value": "#fafafa"
+            "value": "#fafafa",
+            "comment": "Use this color for all backgrounds"
         }
     }
 }

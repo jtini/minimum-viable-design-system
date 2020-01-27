@@ -3,7 +3,7 @@
         "family": {
             "base": {
                 "value": "native-mono",
-                "comment": "Uses the device's default native system monospaced font"
+                "comment": "Uses this typeface for all text"
             }
         }
     }

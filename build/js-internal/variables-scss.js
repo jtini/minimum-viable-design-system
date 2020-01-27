@@ -1,14 +1,16 @@
 /**
  * Do not edit directly
- * Generated on Mon, 27 Jan 2020 23:32:02 GMT
+ * Generated on Mon, 27 Jan 2020 23:39:27 GMT
  */
 
 module.exports = {
   "color": {
     "text": {
       "value": "#232723",
+      "comment": "Use this color for all text",
       "original": {
-        "value": "#232723"
+        "value": "#232723",
+        "comment": "Use this color for all text"
       },
       "name": "$color-text",
       "attributes": {
@@ -22,8 +24,10 @@ module.exports = {
     },
     "background": {
       "value": "#fafafa",
+      "comment": "Use this color for all backgrounds",
       "original": {
-        "value": "#fafafa"
+        "value": "#fafafa",
+        "comment": "Use this color for all backgrounds"
       },
       "name": "$color-background",
       "attributes": {
@@ -40,10 +44,10 @@ module.exports = {
     "family": {
       "base": {
         "value": "native-mono",
-        "comment": "Uses the device's default native system monospaced font",
+        "comment": "Uses this typeface for all text",
         "original": {
           "value": "native-mono",
-          "comment": "Uses the device's default native system monospaced font"
+          "comment": "Uses this typeface for all text"
         },
         "name": "$type-family-base",
         "attributes": {
