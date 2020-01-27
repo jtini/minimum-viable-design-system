@@ -9,15 +9,15 @@ interface FontSwatchProps {
 const FontSwatch = (props: FontSwatchProps) => {
     const { value, name } = props;
     const isFamily = name.indexOf('family') > -1;
-    const isScaleBase = name.indexOf('scale') > -1 && name.indexOf('base') > -1;
+    const isSize = name.indexOf('size') > -1;
     const isWeight = name.indexOf('weight') > -1;
     const isLineHeight = name.indexOf('line-height') > -1;
     const isLetterspacing = name.indexOf('letterspacing') > -1;
     const style = {
-        fontSize: isScaleBase ? value : 'inherit',
-        fontWeight: isWeight ? value : 'normal',
-        lineHeight: isLineHeight ? value : 1.25,
-        letterSpacing: isLetterspacing ? value : 0
+        fontSize: isSize ? `var(${name})` : 'inherit',
+        fontWeight: isWeight ? `var(${name})` : 'normal',
+        lineHeight: isLineHeight ? `var(${name})` : 1.25,
+        letterSpacing: isLetterspacing ? `var(${name})` : 0
     }
     const textSample = () => {
         return 'Hello World'

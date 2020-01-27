@@ -15,7 +15,7 @@ const TokenList = (props: TokenListProps) => {
 
                 return (
                     <div key={key} className="token-list__section">
-                        <h2 className="token-list__section-header">{key}</h2>
+                        <p className="token-list__section-header bold">{key}</p>
                         {type.name && type.value &&
                             <TokenListItem name={type.name} value={type.value} attributes={type.attributes} comment={type.comment} />
                         }
@@ -25,7 +25,6 @@ const TokenList = (props: TokenListProps) => {
 
                             return (
                                 <div key={typeKey}>
-                                    {/* <h3>{typeKey}</h3> */}
                                     {item.name && item.value &&
                                         <TokenListItem name={item.name} value={item.value} attributes={item.attributes} comment={item.comment} />
                                     }
@@ -35,7 +34,6 @@ const TokenList = (props: TokenListProps) => {
 
                                         return (
                                             <div key={itemKey}>
-                                                {/* <h4>{itemKey}</h4> */}
                                                 {subItem.name && subItem.value &&
                                                     <TokenListItem name={subItem.name} value={subItem.value} attributes={subItem.attributes} comment={subItem.comment} />
                                                 }

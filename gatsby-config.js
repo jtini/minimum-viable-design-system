@@ -16,8 +16,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `scss`,
-        path: `${__dirname}/build/scss`,
+        name: `css`,
+        path: `${__dirname}/build/css`,
       },
     },
     `gatsby-transformer-sharp`,

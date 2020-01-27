@@ -1,20 +1,18 @@
-@import "system.scss";
 @import "reset.scss";
 @import "button-reset.scss";
 
 body {
-    font-family: $type-family-base;
-    font-size: $type-size;
-    font-weight: $type-weight;
-    font-style: $type-style;
-    line-height: $type-line-height;
-    background-color: $color-background;
-    color: $color-text;
+    font-family: var(--type-family-base);
+    font-size: var(--type-size);
+    font-weight: var(--type-weight);
+    font-style: var(--type-style);
+    line-height: var(--type-line-height);
+    color: var(--color-text);
     padding: 1rem 1rem 1rem 2rem;
 }
 
 .mono {
-    font-family: $type-family-mono;
+    font-family: var(--type-family-mono);
 }
 
 .token-list__section {
@@ -43,11 +41,13 @@ h4 {
     letter-spacing: 1px;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 .how-to__text {
-    padding: 1rem;
-    font-family: $type-family-mono;
-    border-radius: 8px;
-    background-color: darken($color-background, 3%);
+    padding: 0.5rem 0;
+    font-family: var(--type-family-mono);
     white-space: pre-wrap;
 }
 

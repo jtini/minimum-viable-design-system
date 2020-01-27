@@ -1,9 +1,7 @@
-@import '../../styles/system.scss';
-
 .token-list-item {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid rgba($color-text, 0.2);
+    border-top: 1px solid rgba(var(--color-text), 0.2);
     padding-top: 0.5rem;
     margin-top: 0.5rem;
 }
@@ -12,7 +10,6 @@
 .token-list-item__value {
     position: relative;
     display: block;
-    color: -webkit-link;
     opacity: 0.8;
     cursor: pointer;
 
@@ -46,6 +43,7 @@
 
 .token-list-item__name {
     font-weight: 700;
+    color: -webkit-link;
 }
 
 .token-list-item__comment {

@@ -34,6 +34,13 @@ StyleDictionary.registerTransform({
     transformer: (prop, options) => `$${_.kebabCase([options.prefix].concat(prop.path).join(' '))}`
 })
 
+// Transform name to match css variable format
+StyleDictionary.registerTransform({
+    name: 'name/css-var',
+    type: 'name',
+    transformer: (prop, options) => `--${_.kebabCase([options.prefix].concat(prop.path).join(' '))}`
+})
+
 // Register our custom scss transforms
 StyleDictionary.registerTransformGroup({
     name: 'scss/custom',
@@ -44,6 +51,12 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerTransformGroup({
     name: 'scss/custom-js',
     transforms: ['attribute/cti', 'name/scss-var', 'time/seconds', 'content/icon', 'type-size/scss', 'color/css']
+});
+
+// Register our custom scss-js transforms
+StyleDictionary.registerTransformGroup({
+    name: 'css/custom-js',
+    transforms: ['attribute/cti', 'name/css-var', 'time/seconds', 'content/icon', 'type-size/scss', 'color/css']
 });
 
 StyleDictionary.buildAllPlatforms();

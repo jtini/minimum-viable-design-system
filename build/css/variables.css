@@ -1,0 +1,15 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 27 Jan 2020 23:07:42 GMT
+ */
+
+:root {
+  --color-text: #232723;
+  --color-background: #fafafa;
+  --type-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; /* Uses the device's default native system font */
+  --type-family-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; /* Uses the device's default native system monospaced font */
+  --type-size: 1rem;
+  --type-weight: normal;
+  --type-style: normal;
+  --type-line-height: 1.25;
+}
