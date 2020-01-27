@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 27 Jan 2020 23:07:42 GMT
+ * Generated on Mon, 27 Jan 2020 23:25:41 GMT
  */
 
 module.exports = {
@@ -39,11 +39,11 @@ module.exports = {
   "type": {
     "family": {
       "base": {
-        "value": "native",
-        "comment": "Uses the device's default native system font",
+        "value": "native-mono",
+        "comment": "Uses the device's default native system monospaced font",
         "original": {
-          "value": "native",
-          "comment": "Uses the device's default native system font"
+          "value": "native-mono",
+          "comment": "Uses the device's default native system monospaced font"
         },
         "name": "$type-family-base",
         "attributes": {
@@ -56,86 +56,7 @@ module.exports = {
           "family",
           "base"
         ]
-      },
-      "mono": {
-        "value": "native-mono",
-        "comment": "Uses the device's default native system monospaced font",
-        "original": {
-          "value": "native-mono",
-          "comment": "Uses the device's default native system monospaced font"
-        },
-        "name": "$type-family-mono",
-        "attributes": {
-          "category": "type",
-          "type": "family",
-          "item": "mono"
-        },
-        "path": [
-          "type",
-          "family",
-          "mono"
-        ]
       }
-    },
-    "size": {
-      "value": "1rem",
-      "original": {
-        "value": 16
-      },
-      "name": "$type-size",
-      "attributes": {
-        "category": "type",
-        "type": "size"
-      },
-      "path": [
-        "type",
-        "size"
-      ]
-    },
-    "weight": {
-      "value": "normal",
-      "original": {
-        "value": "normal"
-      },
-      "name": "$type-weight",
-      "attributes": {
-        "category": "type",
-        "type": "weight"
-      },
-      "path": [
-        "type",
-        "weight"
-      ]
-    },
-    "style": {
-      "value": "normal",
-      "original": {
-        "value": "normal"
-      },
-      "name": "$type-style",
-      "attributes": {
-        "category": "type",
-        "type": "style"
-      },
-      "path": [
-        "type",
-        "style"
-      ]
-    },
-    "line-height": {
-      "value": 1.25,
-      "original": {
-        "value": 1.25
-      },
-      "name": "$type-line-height",
-      "attributes": {
-        "category": "type",
-        "type": "line-height"
-      },
-      "path": [
-        "type",
-        "line-height"
-      ]
     }
   }
 };

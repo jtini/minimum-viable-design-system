@@ -2,25 +2,9 @@
     "type": {
         "family": {
             "base": {
-                "value": "native",
-                "comment": "Uses the device's default native system font"
-            },
-            "mono": {
                 "value": "native-mono",
                 "comment": "Uses the device's default native system monospaced font"
             }
-        },
-        "size": {
-            "value": 16
-        },
-        "weight": {
-            "value": "normal"
-        },
-        "style": {
-            "value": "normal"
-        },
-        "line-height": {
-            "value": 1.25
         }
     }
 }

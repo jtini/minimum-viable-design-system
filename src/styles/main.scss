@@ -3,12 +3,9 @@
 
 body {
     font-family: var(--type-family-base);
-    font-size: var(--type-size);
-    font-weight: var(--type-weight);
-    font-style: var(--type-style);
-    line-height: var(--type-line-height);
     color: var(--color-text);
-    padding: 1rem 1rem 1rem 2rem;
+    background-color: var(--color-background);
+    padding: 1rem;
 }
 
 .mono {
@@ -26,6 +23,7 @@ footer {
 
 h1 {
     font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 h1,
