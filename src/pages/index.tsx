@@ -25,7 +25,7 @@ const IndexPage = () => {
         <pre className="how-to__text"><a href={data.css.publicURL} download="variables.css">Download the variables.css</a> and add it to your project.</pre>
       </section>
       <h4>Design Tokens</h4>
-      <pre className="how-to__text">Click to copy the sass variable or its associated value. Paste it where you want it.</pre>
+      <pre className="how-to__text">Click to copy the css variable or its associated value. Paste it where you want it.</pre>
       <TokenList tokens={tokensCss} />
     </Layout>
   )
