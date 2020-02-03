@@ -3,6 +3,7 @@ module.exports = {
     title: `Minimum Viable Design System`,
     description: `Start making a design system in the browser and generate design tokens`,
     author: `@jtini`,
+    url: `https://mvds.netlify.com/`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

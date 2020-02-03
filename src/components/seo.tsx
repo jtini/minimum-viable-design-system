@@ -6,9 +6,9 @@
  */
 
 import React from "react"
-import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import shareImage from '../../static/share.png'
 
 function SEO({ description, lang, meta, title }: { description: string, lang: string, meta: [], title: string }) {
   const { site } = useStaticQuery(
@@ -19,6 +19,7 @@ function SEO({ description, lang, meta, title }: { description: string, lang: st
             title
             description
             author
+            url
           }
         }
       }
@@ -26,6 +27,7 @@ function SEO({ description, lang, meta, title }: { description: string, lang: st
   )
 
   const metaDescription = description || site.siteMetadata.description
+  const url = site.siteMetadata.url
 
   return (
     <Helmet
@@ -51,8 +53,20 @@ function SEO({ description, lang, meta, title }: { description: string, lang: st
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: `${url}${shareImage}`
+        },
+        {
+          property: `og:image:width`,
+          content: `1200`
+        },
+        {
+          property: `og:image:height`,
+          content: `630`
+        },
+        {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
@@ -65,6 +79,10 @@ function SEO({ description, lang, meta, title }: { description: string, lang: st
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `twitter:image`,
+          content: `${url}${shareImage}`
         },
       ].concat(meta)}
     />
