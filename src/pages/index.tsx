@@ -19,7 +19,7 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Minimum Viable Design System" />
       <h3>This is a very barebones design system</h3>
-      <p>Created by <a href="https://tinyeahno.com" target="_blank" rel="noopener noreferrer">Jeremy Tinianow</a>.</p>
+      <p>Created by <a href="https://tinyeahno.com" target="_blank" rel="noopener noreferrer">Jeremy Tinianow</a> and available on <a href="https://github.com/jtini/minimum-viable-design-system" target="_blank" rel="noopener noreferrer">Github</a>.</p>
       <section className="how-to">
         <h4 className="how-to__title">How to use</h4>
         <pre className="how-to__text"><a href={data.css.publicURL} download="variables.css">Download the variables.css</a> and add it to your project.</pre>
