@@ -18,7 +18,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Minimum Viable Design System" />
-      <h3>This is a very barebones design system</h3>
+      <h3>This is a very barebones design system.</h3>
       <p>Created by <a href="https://tinyeahno.com" target="_blank" rel="noopener noreferrer">Jeremy Tinianow</a> and available on <a href="https://github.com/jtini/minimum-viable-design-system" target="_blank" rel="noopener noreferrer">Github</a>.</p>
       <section className="how-to">
         <h4 className="how-to__title">How to use</h4>
